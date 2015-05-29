@@ -9,7 +9,7 @@ set(NATIVENET_SOURCES
     corenet.cpp
 )
 
-add_library(System.NET.Native
+add_library(System.Net.Native
     SHARED
     ${NATIVENET_SOURCES}
 )
